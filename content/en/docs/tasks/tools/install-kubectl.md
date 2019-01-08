@@ -18,6 +18,15 @@ You must use a kubectl version that is within one minor version difference of yo
 
 {{% capture steps %}}
 
+## TLDR;
+
+Minimum Viable Setup to typing "kubectl" and something working:
+
+* install minikube (if you know you don't need this you don't need this doc)
+* minikube start
+* install kubectl (see below)
+* check setup: kubectl cluster-info
+
 ## Install kubectl
 
 Here are a few methods to install kubectl.
